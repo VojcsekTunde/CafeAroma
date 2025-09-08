@@ -37,16 +37,14 @@
         <article class="p-3">
             <h2 class="my-4">Üdvözöljük a Café Aromában!</h2>
             <div class="row">
-                <div class="col-lg-6">
-                <div class="text-justify">
+                <div class="">
+                <div class="text-justify interior">
+                    <img src="./images/interior.jpg" class="p-3" alt="„Café Aroma kávézó”" title="„Café Aroma kávézó”">
                     <p>Üdvözöljük a Café Aromában, Szeged szívében található egyedülálló kávézónkban, ahol a kávézás élményét új szintre emeljük. 2005 óta szolgáljuk ki a kávé szerelmeseit, akik igazi minőségre és különleges ízekre vágynak. Családias hangulatunkkal és barátságos kiszolgálásunkkal igyekszünk minden vendégünknek otthonos érzést nyújtani. </p>
                     <p>  A Café Aroma több mint csak egy kávézó. Itt találkozási pontot kínálunk a helyi közösség számára, ahol barátok találkozhatnak, családok tölthetnek el kellemes órákat, vagy akár üzleti találkozók helyszíne is lehet. Büszkék vagyunk rá, hogy válogatott, prémium minőségű kávéinkkal és kézzel készített süteményeinkkel kényeztethetjük vendégeinket.</p> 
                     <p> Kínálatunkban a klasszikus espresso és cappuccino mellett számos modern kávékülönlegesség is megtalálható, mint például a jeges kávék és szezonális ízesítésű latték. Mindezek mellett vegán vendégeinket is szeretettel várjuk vegán süteményválasztékunkkal, amelyeket mindig frissen, helyi alapanyagokból készítünk.</p> 
                     <p> A Café Aroma tökéletes hely a kikapcsolódásra, ahol a kávézás rituáléja egyesül a modern gasztronómiai élményekkel. Látogasson el hozzánk, és engedje, hogy elvarázsoljuk az ízlelőbimbóit, miközben élvezi a kávézónk nyújtotta meghitt atmoszférát.</p>
                     </div>
-                </div>
-                <div class="col-lg-6 p-3">
-                    <img src="./images/interior.jpg" alt="„Café Aroma kávézó”" title="„Café Aroma kávézó”">
                 </div>
             </div>
            
@@ -80,7 +78,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-6 text-justify">
                     <h4>Kávé árlista</h4>
                     <table class="table">
-                        <thead>
+                        <thead class="table-dark text-white">
                             <tr>
                                 <th>Kávé típusa</th>
                                 <th>Ár</th>
@@ -100,6 +98,10 @@
                                 <td>600 Ft</td>
                             </tr>
                             <tr>
+                                <td>Latte Macchiato</td>
+                                <td>650 Ft</td>
+                            </tr>
+                            <tr>
                                 <td>Flat White</td>
                                 <td>700 Ft</td>
                             </tr>
@@ -109,18 +111,19 @@
             </div>
 
             <!-- Elérhetőségek -->
-
-
             <div class="row">
-                <div>
-                    Üzemeltető: Horváth Anna
-                    Cím: 6720 Szeged, Kávé utca 1.
-                    Telefonszám: +36 20 555 1234
-                    Email: info@cafe-arroma.hu
+                <div class="col-lg-6">
+                    <h4>Elérhetőség</h4>
+                    <ul class="text-center">
+                        <li> <a href="a https://bankitatabanya.hu/">Készítette: Vojcsek Tünde </a> </li>
+                        <li> Cím: 6720 Szeged, Kávé utca 1.</li>
+                        <li>   Telefonszám: +36 20 555 1234</li>
+                        <li>Email: info@cafe-arroma.hu</li>
+                    </ul>
                 </div>
                 <!-- Üzenetküldő űrlap -->
-                <div>
-                    <form>
+                <div class="col-lg-6 urlap">
+                    <form class="form-control">
                         <div class="form-group">
                             <label for="name">Név:</label>
                             <input type="text" id="name" required>
@@ -148,9 +151,10 @@
         </div>
         <!-- Lábléc -->
         <footer class="p-2">
-
+                <a href="a https://bankitatabanya.hu/" target="_blank"></a>
         </footer>
     </div>
+    <script src="bootstrap.min.js"></script>
 </body>
 
 </html>
