@@ -33,7 +33,7 @@ article {
 }
 
 .container{
-    padding: 20px!important;
+    padding: 0px 20px!important;
 }
 
 footer {
@@ -58,7 +58,7 @@ img {
 }
 
 footer a{
-    color: brown!important;
+    color: #6f4e37!important;
 }
 
 footer{
@@ -67,5 +67,10 @@ footer{
 
 .contact-ul li{
     padding-left: 10px;
+    margin: 0px!important;
+}
+
+.contact-ul{
+    padding-left: 20px;
     margin: 0px;
 }
